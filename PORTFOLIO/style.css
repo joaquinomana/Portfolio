@@ -1,0 +1,334 @@
+.root {
+--yellow:#FFF500;
+--black: #000000;
+--white: #FFFFFF;
+}
+/*
+	@name frame_1
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { 
+	display: flex; 
+	position: relative; 
+	width: 1920px; 
+	max-width: 1920px; 
+	height: 4320px; 
+	overflow: hidden; 
+	display: block;  
+	margin-left: auto; 
+	margin-right: auto;  
+}
+
+
+
+#background {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 4320px;
+	background:#192485;
+}
+
+#group_2 {
+	position: fixed;
+	z-index: 9999;
+	width: 437.62px;
+	height: 36px;
+	left: 1457px;
+	top: 43px;
+	cursor: pointer;
+	transition: filter 0.3s ease-in-out;
+}
+
+#group_2 div:hover {
+filter: brightness(0.8);
+ }
+
+	
+ #group_3 {
+	position: absolute;
+
+  }
+  
+  
+  #linkedin {
+	
+	height: 66px;
+	width: 75px;
+	left: 119px;
+	top: 20px;
+	border-radius: 0px;
+
+  }
+  
+  #facebook {
+	
+	height: 66px;
+	width: 75px;
+	left: 238px;
+	top: 20px;
+	border-radius: 0px;
+
+  }
+  
+  #git {
+	
+	height: 66px;
+	width: 75px;
+	left: 357px;
+	top: 20px;
+	border-radius: 0px;
+
+  }
+  
+#about_me {
+	top: 0px;
+	left: 0px;
+	width: 193.6px;
+	height: 54.5px;
+	overflow: hidden;
+	font-family: Orbitron;
+	font-size: 27px;
+	font-weight: bold;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#project {
+	top: 0px;
+	left: 320px;
+	width: 150.41px;
+	height: 54.5px;
+	overflow: hidden;
+	font-family: Orbitron;
+	font-size: 27px;
+	font-weight: bold;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#skills {
+	top: 0px;
+	left: 198px;
+	width: 117.72px;
+	height: 54.5px;
+	overflow: hidden;
+	font-family: Orbitron;
+	font-size: 27px;
+	font-weight: bold;
+	text-align: left;
+	color:#ffffff;
+}
+
+#intro {
+	top: 233px;
+	left: 104px;
+	width: 1065px;
+	height: 618px;
+	font-family: Orbitron;
+	font-size: 32px;
+	color:#ffffff;
+}
+
+#porfolio {
+	top: 0px;
+	left: 0px;
+	width: 403.5px;
+	height: 47.5px;
+	overflow: hidden;
+	font-family: Orbitron;
+	font-size: 27px;
+	font-weight: bold;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+
+
+#hi {
+	top: 23px;
+	left: 0px;
+	width: 1134px;
+	height: 192px;
+	overflow: hidden;
+	font-family: Orbitron;
+	font-size: 64px;
+	font-weight: bold;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#i_am{
+	top: 180px;
+	left: 0px;
+	width: 995px;
+	height: 459px;
+	overflow: hidden;
+	font-family: Orbitron;
+	font-size: 30px;
+	text-align: left;
+	color:#ffffff;
+}
+
+#group_4 {
+	top: 851px;
+	left: 104px;
+	width: 254px;
+	height: 78px;
+}
+  
+  #rectangle1button {
+	top: 0px;
+	left: 0px;
+	width: 220px;
+	height: 78px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(0,0,0,1);
+	cursor: pointer;
+  }
+
+  #download_cv {
+	top: 21px;
+	left: 21px;
+	width: 247px;
+	height: 58px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+	cursor: pointer;
+  }
+
+#picture {
+	top: 247px;
+	left: 1305px;
+	width: 531px;
+	height: 616px;
+}
+
+.content {
+  opacity: 0;
+}
+
+.slide-in {
+  animation: slide-in 1s ease-in-out;
+  opacity: 1;
+}
+
+#group_5 {
+	color: #ffffff;
+}
+
+#About {
+	position: absolute;
+	width: 345px;
+	height: 79px;
+	left: 58px;
+	top: 1106px;
+	
+	font-family: 'Orbitron';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 80px;
+}
+
+#group_6 {
+	color: #ffffff;
+}
+#Skill {
+position: absolute;
+width: 208px;
+height: 79px;
+left: 74px;
+top: 2187px;
+
+font-family: 'Orbitron';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 80px;
+
+}
+
+
+
+#group_7 {
+	color: #ffffff;
+}
+
+#Pro {
+	position: absolute;
+	width: 308px;
+	height: 80px;
+	left: 74px;
+	top: 3251px;
+	
+	font-family: 'Orbitron';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 80px;
+
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.intro {
+  padding: 50px;
+  text-align: center;
+}
+
+
+
+
+
+/* Add your custom CSS here */
+
+
+/* Animate the container when the page loads */
+.container {
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+/* Define the fadeIn animation */
+@keyframes fadeIn {
+	from {
+		
+		opacity: 0;
+	}
+	to {
+		
+		opacity: 1;
+	}
+}
+
+
