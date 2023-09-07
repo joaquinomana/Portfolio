@@ -1,16 +1,15 @@
 html {
 	scroll-behavior: smooth;
 }
-/*
-	@name frame_1
-*/
-/* Only edit this if you know what you are doing! */
+
 body { 
 	margin: 0px; 
 	padding: 0px; 
 	font-family: 'Lexend', sans-serif;
-	overflow-x: hidden;  
 }
+
+
+
 
 #blackline {
 
@@ -25,10 +24,6 @@ body {
 /* Only edit this if you know what you are doing! */
 img { 
 	position: absolute; 
-	display: block; 
-	margin: 0px; 
-	border: none; 
-	padding: 0px; 
 }
 
 
@@ -37,49 +32,55 @@ div {
 	position: absolute; 
 }
 
-#content-container { 
+section {
+	display: grid;
+    justify-content: center;
+    align-items: start;
+}
+
+.content-container { 
 	display: flex; 
+	flex-direction: column;
 	position: relative; 
 	width: 1920px; 
-	height: 4320px; 
-	overflow: hidden; 
-	display: block;  
-	margin-left: auto; 
-	margin-right: auto;  
+	
 }
 
 
-#background {
-	top: 0px;
-	left: 0px;
-	width: 1920px;
-	height: 4320px;
-}
+.hidden {
+	opacity: 0;
+	transition: opacity 0.5s;
+  }
+
+.content {
+	margin-bottom: 100vh; /* Add spacing between elements */
+  }
 
 #particles-js {
 	position: fixed;
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
-	background-color: rgb(90, 90, 90);
+	background-color: rgb(59, 59, 56);
 	background-size: cover;
 
 }
 
 #group_2 {
 	position: fixed;
-	z-index: 9999;
+	z-index: 999;
 	width: 544.62px;
 	height: 37px;
 	top: 27px;	
 	cursor: pointer;
-	transition: filter 0.3s ease-in-out;
 	font-size: 30px;
+	font-weight: bold;
+	color:#ffffff;
 	
 }
 
 #group_2 div:hover {
-filter: brightness(0.8);
+filter: brightness(0.7);
  }
 
 
@@ -88,7 +89,7 @@ filter: brightness(0.8);
 	overflow: hidden;
 	font-weight: bold;
 	text-align: left;
-	color:#ffffff;	
+	
 }
 
 #Home:hover {
@@ -98,9 +99,7 @@ filter: brightness(0.8);
  #about_me {
 	left: 1483px;
 	overflow: hidden;
-	font-weight: bold;
 	text-align: left;
-	color:#ffffff;
 	white-space: nowrap;
 }
 
@@ -111,9 +110,8 @@ filter: brightness(0.8);
 #skills {
 	left: 1663px;
 	overflow: hidden;
-	font-weight: bold;
-	text-align: left;
-	color:#ffffff;
+	
+	
 }
 #skills:hover {
 	text-decoration: underline;
@@ -122,9 +120,8 @@ filter: brightness(0.8);
 #project {
 	left: 1775px;
 	overflow: hidden;
-	font-weight: bold;
 	text-align: left;
-	color:#ffffff;
+	
 }
 
 #project:hover {
@@ -176,7 +173,6 @@ filter: brightness(0.8);
 }
 
 #porfolio {
-	
 	left: 0px;
 	width: 403.5px;
 	height: 47.5px;
@@ -212,9 +208,7 @@ filter: brightness(0.8);
 }
 
 #group_4 {
-	top: 740px;
-	left: 104px;
-	
+	top: 540px;
 }
   
 #rectangle1button {
@@ -238,8 +232,8 @@ filter: brightness(0.8);
   }
 
 #picture {
-	top: 120px;
-	left: 1305px;
+	top: 10px;
+	left: 1200px;
 	width: 531px;
 	height: 616px;
 }
@@ -309,6 +303,7 @@ filter: brightness(0.8);
 	top: 1450px;
 	color: #ffffff;
 	font-size: 35px;
+	white-space: nowrap;
   }
 
 #gamin {
@@ -342,7 +337,7 @@ filter: brightness(0.8);
 	padding: 0;
   }
   
-  li {
+li {
 	position: relative;
 	left: 1457px;
 	top: 1490px;
@@ -465,12 +460,12 @@ filter: brightness(0.8);
 	height: 157px;
 	display: flex;
     flex-direction: column;
+	font-size: 20px;
 }
 
 
 
 #Pro {
-	
 	width: 308px;
 	height: 80px;
 	left: 74px;
@@ -486,23 +481,27 @@ filter: brightness(0.8);
 #big1 {
 	position: absolute;
 	left: 129px;
-	top: 3374px;
+	top: 3304px;
 	font-size: 15px;
 	line-height: 40px;
 }
 
+
 #Login_Form {
 	text-align: left;
 	left: 129px;
-	top: 3424px;
+	top: 3364px;
 }
+
+
+
 
 
 #big2 {
 	position: relative;
 	align-items: center;
 	left: 1529px;
-	top: 3620px;
+	top: 3570px;
 	font-size: 15px;
 	line-height: 40px;
 
@@ -513,14 +512,14 @@ filter: brightness(0.8);
 	width: 1290px;
 	height: 175px;
 	left: 525px;
-	top: 3670px;
+	top: 3630px;
 
 }
 
 #big3 {
 	position: absolute;
 	left: 129px;
-	top: 3890px;
+	top: 3850px;
 	font-size: 15px;
 	line-height: 40px;
 }
@@ -530,7 +529,7 @@ filter: brightness(0.8);
 	width: 1195px;
 	height: 157px;
 	left: 129px;
-	top: 3940px;
+	top: 3910px;
 }
 
 video {
@@ -548,13 +547,13 @@ video {
 	
 	height: 273px;
 	left: 105px;
-	top: 3633px;
+	top: 3590px;
 }
 
 .video3 {
 	height: 273px;
 	left: 1372px;
-	top: 3790px;
+	top: 3760px;
 }
 
 

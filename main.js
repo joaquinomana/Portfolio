@@ -1,26 +1,10 @@
-const sections = document.querySelectorAll('section');
-const options = {
-    rootMargin: '-20% 0px',
-    threshold: 0.5,
-};
 
-const showSection = function (entries, observer) {
-  const [entry] = entries;
-  if (!entry.isIntersecting) {
-    entry.target.classList.remove('show');
-    entry.target.classList.add('hidden');
-  } else {
-    entry.target.classList.remove('hidden');
-    entry.target.classList.add('show');
-  }
-};
 
-const sectionObserver = new IntersectionObserver(showSection, options);
 
-sections.forEach(function (section) {
-  sectionObserver.observe(section);
-  section.classList.add('hidden');
-});
+
+
+
+
 
 // clicking scroll
 document.getElementById('group_2').addEventListener('click', function() {
